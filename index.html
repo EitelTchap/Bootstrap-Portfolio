@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Bootstrap and my CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <title>Eitel | Front End Web Developer</title>
+  </head>
+  <body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+    <a class="navbar-brand" href="#">Eitel </a>
+
+  <div class="collapse navbar-collapse container-fluid" id="navbarSupportedContent flex-align">
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item"><a class="nav-link" href="#about">About me</a></li>
+    <li class="nav-item"><a class="nav-link" href="#work">My work</a></li>
+    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+  </ul>
+  </div>
+
+  </nav>
+
+  
+  <img class="justify-center" id="profileimg" src="./Images/PhotoID.jpeg">
+
+  <main>
+
+    <!--Jumbotron with about me and photo ID-->
+    <Section class="container-fluid" id="about">
+        <div class="jumbotron jumbotron-fluid">
+            
+            <h1 class="display-4">Welcome to my Bootstrap Portfolio!</h1>
+             <p class="lead">Hello there, my name is Eitel and I am currently learning front-end web development. Please take a look at some of the works I have done so far.</p>
+        </div>
+    </Section>
+
+<!--My work-->
+<section class="container-fluid" id="work">
+    <h2> My work</h2>
+  <div class="row">
+    <!--Prework Study Guide-->
+    <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+        <div class="card" style="width: 15rem;">
+          <img src="./Images/Study Guide.png" class="card-img-top" alt="Man walking dog by sea side">
+          <div class="card-body">
+            <h5 class="card-title">Prework Study Guide ✍🏾🗒️</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="https://eiteltchap.github.io/prework-study-guide/" class="btn btn-primary">Study Guide</a>
+          </div>
+        </div>
+    </div>
+    <!--Horiseon-->
+    <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+        <div class="card" style="width: 15rem;">
+        <img src="./Images/Horiseon.png" class="card-img-top" alt="Man adding milk to tea">
+        <div class="card-body">
+          <h5 class="card-title">Horiseon 🖥️</h5>
+          <p class="card-text">In this project, I practiced basic HTML and CSS coding</p>
+          <a href="https://eiteltchap.github.io/Horiseon-Website/" class="btn btn-primary">Horiseon</a>
+        </div>
+      </div>
+    </div>
+    <!--Flexbox Experience-->
+    <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+      <div class="card" style="width: 15rem;">
+        <img src="./Images/Frexboxfroggy.png" class="card-img-top" alt="White steel structure">
+        <div class="card-body">
+          <h5 class="card-title">Flexbox graduate 🎓</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="https://flexboxfroggy.com/" class="btn btn-primary">FlexFroggy</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+        <div class="card" style="width: 15rem;">
+          <img src="./Images/Furniture.png" class="card-img-top" alt="White steel structure">
+          <div class="card-body">
+            <h5 class="card-title">Coming soon! 🪑</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Coming soon!</a>
+          </div>
+        </div>
+      </div>
+    
+  </div>
+  
+</div>
+
+
+
+<!--Contact me section using my own CSS-->
+
+
+<Section class="container-fluid" id="contact">
+    <h2>Contact Me</h2>
+    <div class="justify-center">
+        <a href="#">☎️ +44(0) 7415259142</a>
+        <a href="mailto:eiteltchapdeu@gmail.com">📧 eiteltchapdeu@gmail.com</a>
+        <a href="https://github.com/EitelTchap">🐱‍💻 GitHub</a>
+        <a href="https://www.linkedin.com/in/eitel-mbanya-tchapdeu-89b40a135/">🧑🏽‍💼LinkedIn</a>
+    </div>
+<!-- An option to write to me directly on the page-->
+<!-- Button trigger modal -->
+<div>
+
+<div class="justify-center">
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#writetome">
+  Write to me here
+</button>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="writetome" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Write to me</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Feel free to criticize! I am here to learn!</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Write here">
+              <small id="emailHelp" class="form-text text-muted">I will get back to you as soon as possible.</small>
+            </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</Section>
+
+</main>
+
+<footer>
+    <h3> I look forward to you reaching out 😁 </h3>
+</footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
